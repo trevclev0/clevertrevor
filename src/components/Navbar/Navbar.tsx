@@ -7,7 +7,7 @@ function Navbar() {
     <nav>
       <Link className="logo-link" to="/">
         <Logo height={28} width={28} />
-        Trevor Dur&aacute;n
+        <p>Trevor Dur&aacute;n</p>
       </Link>
       <ul>
         <li>
