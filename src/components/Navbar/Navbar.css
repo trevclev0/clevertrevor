@@ -10,3 +10,7 @@ nav {
   justify-content: space-between;
   width: 100%;
 }
+
+nav a {
+  text-decoration: none;
+}
