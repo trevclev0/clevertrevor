@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const ProjectsWrapper = styled.div`
-`;
+const ProjectsWrapper = styled.div``;
+
+export default ProjectsWrapper;

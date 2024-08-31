@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const ContactWrapper = styled.div`
-`;
+const ContactWrapper = styled.div``;
+
+export default ContactWrapper;

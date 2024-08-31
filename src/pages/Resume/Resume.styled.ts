@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const ResumeWrapper = styled.div`
-`;
+const ResumeWrapper = styled.div``;
+
+export default ResumeWrapper;
