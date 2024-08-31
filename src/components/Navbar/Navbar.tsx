@@ -5,7 +5,10 @@ import { ReactComponent as Logo } from "../../assets/logo.svg";
 function Navbar() {
   return (
     <nav>
-      <Link className='logo-link' to="/"><Logo height={28} width={28} /><p>Trevor Dur&aacute;n</p></Link>
+      <Link className="logo-link" to="/">
+        <Logo height={28} width={28} />
+        <p>Trevor Dur&aacute;n</p>
+      </Link>
       <ul>
         <li>
           <Link to="/projects">Projects</Link>
