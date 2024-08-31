@@ -15,8 +15,11 @@ nav {
 
 nav a {
   text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 nav .logo-link {
   display: flex;
+  font-family: "Manrope", "Manrope Placeholder", sans-serif
 }
