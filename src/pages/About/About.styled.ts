@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const AboutWrapper = styled.div`
-`;
+const AboutWrapper = styled.div``;
+
+export default AboutWrapper;
