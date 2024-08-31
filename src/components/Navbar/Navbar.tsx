@@ -4,7 +4,6 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 function Navbar() {
   return <>
-    <header></header>
     <nav>
       <Link to="/"><Logo height={28} /></Link>
       <ul>

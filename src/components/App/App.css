@@ -1,3 +1,14 @@
 .App {
-  width: 180rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
 }
