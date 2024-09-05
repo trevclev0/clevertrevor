@@ -9,18 +9,23 @@ import Contact from "../../pages/Contact/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-blue flex flex-column vh-100">
       <Router>
         <header>
           <Navbar />
         </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <main className="flex-auto">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <footer>
+          <p>Trevor Dur&aacute;n</p>
+        </footer>
       </Router>
     </div>
   );

@@ -1,7 +1,5 @@
-import ProjectsWrapper from "./Projects.styled";
-
 function Projects() {
-  return <ProjectsWrapper>Projects Component</ProjectsWrapper>;
+  return <h1>Projects Component</h1>;
 }
 
 export default Projects;

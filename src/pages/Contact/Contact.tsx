@@ -1,7 +1,5 @@
-import ContactWrapper from "./Contact.styled";
-
 function Contact() {
-  return <ContactWrapper>Contact Component</ContactWrapper>;
+  return <h1>Contact Component</h1>;
 }
 
 export default Contact;
