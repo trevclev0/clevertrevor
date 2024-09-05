@@ -9,7 +9,7 @@ import Contact from "../../pages/Contact/Contact";
 
 function App() {
   return (
-    <div className="App flex flex-column vh-100">
+    <div className="App flex flex-column min-vh-100">
       <Router>
         <header className="nested-list-reset">
           <Navbar />
