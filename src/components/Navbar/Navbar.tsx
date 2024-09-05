@@ -19,7 +19,7 @@ function Navbar() {
         <Navlink href="/contact">Contact</Navlink>
         <button
           type="button"
-          className="flex icon input-reset pointer muted-blue f4"
+          className="flex icon dn-ns input-reset pointer muted-blue f4"
           aria-label="Menu"
         >
           <FontAwesomeIcon icon={faBars} />
