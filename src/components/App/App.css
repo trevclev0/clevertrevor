@@ -12,3 +12,7 @@ body {
 header {
   display: flex;
 } */
+
+.muted-blue {
+  color: #2a7796;
+}
