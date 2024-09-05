@@ -1,3 +1,7 @@
+:root {
+  --muted-blue: #2a7796;
+}
+
 .muted-blue {
-  color: #2a7796;
+  color: var(--muted-blue);
 }
