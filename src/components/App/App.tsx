@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App flex flex-column vh-100">
       <Router>
-        <header>
+        <header className="nested-list-reset">
           <Navbar />
         </header>
         <main className="flex-auto">
