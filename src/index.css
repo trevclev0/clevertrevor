@@ -53,3 +53,11 @@ h6 {
 body {
   font-family: "Manrope", "Manrope Placeholder", sans-serif;
 }
+
+:root {
+  --muted-blue: #2a7796;
+}
+
+.muted-blue {
+  color: var(--muted-blue);
+}
