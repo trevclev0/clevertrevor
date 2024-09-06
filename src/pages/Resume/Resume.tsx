@@ -1,7 +1,5 @@
-import ResumeWrapper from "./Resume.styled";
-
 function Resume() {
-  return <ResumeWrapper>Resume Component</ResumeWrapper>;
+  return <h1>Resume Component</h1>;
 }
 
 export default Resume;

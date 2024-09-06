@@ -1,7 +1,5 @@
-import AboutWrapper from "./About.styled";
-
 function About() {
-  return <AboutWrapper>About Component</AboutWrapper>;
+  return <h1>About Component</h1>;
 }
 
 export default About;

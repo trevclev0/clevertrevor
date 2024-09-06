@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -46,4 +48,16 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+body {
+  font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+
+:root {
+  --muted-blue: #2a7796;
+}
+
+.muted-blue {
+  color: var(--muted-blue);
 }
